@@ -1,0 +1,185 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --SoftMagenta: hsl(300, 69%, 71%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif
+    "Open Sans", sans-serif;
+    font-size: 16px;
+    background: var(--Violet) url(./images/bg-mobile.svg) no-repeat;
+    color: white;
+}
+
+main {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.huddlelogo>img {
+    width: 8rem;
+    margin: 2.3rem 0rem 0rem 2.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.textcontainer {
+    margin-top: 3.2rem;
+}
+
+.textcontainer>h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.textcontainer>p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-top: 1.3rem;
+}
+
+.btn {
+    padding-top: 1.5rem;
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--Violet);
+    padding: 10px 30px;
+    width: 75%;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+    border-style: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: var(--SoftMagenta);
+    color: white;
+}
+
+.mockup img {
+    width: 100%;
+    margin-top: 3.3rem;
+}
+
+.fa-brands {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+
+} 
+
+.fa-brands:hover {
+    color: var(--SoftMagenta);
+}
+
+.fa-facebook-f {
+    padding: 0.5rem 0.6rem;
+   
+}
+
+.fa-twitter, .fa-instagram {
+    padding: 0.5rem;
+  
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.attribution { 
+    font-size: 11px; 
+    font-family: "Poppins", sans-serif;
+    text-align: center; 
+    color: white;
+    margin-top: 2rem;
+   
+}
+.attribution a { 
+    color: var(--SoftMagenta); 
+    text-decoration: none;
+}
+
+@media (min-width:600px) {
+
+    body {
+        background: var(--Violet) url(./images/bg-desktop.svg) no-repeat;
+        background-size: contain;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textcontainer {
+        text-align: left;
+        margin-left: 2.5rem;
+    }
+    
+    .textcontainer>h1 {
+        font-size: 2.5rem;
+        width: 30rem;
+    }
+
+    .textcontainer>p {
+        padding-top: 0.9rem;
+        width: 29rem;
+    }
+
+    button {
+        width: 40%;
+        font-size: 1rem;
+        padding: 13px 30px;
+        border-radius:25px;
+    }
+
+    .mockup img {
+        margin-top: 11rem;
+        position: relative;
+        left: 22px;
+    }
+
+    .huddlelogo>img {
+        width: 13rem;
+        margin-left: 10rem;
+        position: relative;
+        top: 90px;
+        
+    }
+
+
+    .socialicons{
+     margin-left: 80rem;
+    }
+
+    .attribution {
+        margin-top: 1.85rem;
+    }
+
+
+}
