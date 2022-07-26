@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/ozeechristine/Huddle-Landing-Page-Solution](https://your-solution-url.com)
-- Live Site URL: [[Add live site URL her](https://ozeechristine.github.io/Huddle-Landing-Page-Solution/)](https://your-live-site-url.com)
+- Live Site URL: [https://ozeechristine.github.io/Huddle-Landing-Page-Solution/](https://your-live-site-url.com)
 
 
 ### Built with
